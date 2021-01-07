@@ -12,8 +12,8 @@ function Landing() {
 
         <div className="land-right-section">
             <div className="landing-text">
-                <h1>MOMO CREATES</h1>
-                <h2>THE EMBROIDERY TO YOUR DREAMS</h2>
+                <h1 className="header-title">MOMO CREATES</h1>
+                <p className="header-sub-title">THE EMBROIDERY TO YOUR DREAMS</p>
             </div>
         </div>
     </div>

@@ -9,10 +9,13 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse navigation-momo" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#home">home</a>
-          <a class="nav-link link" href="#about">about</a>
-          <a class="nav-link link" href="#works">works</a>
-          <a class="nav-link link" href="#contact">contact</a>
+        {/* navbar-nav was class above */}
+        
+          <a class="link" href="#home">home</a>
+          <a class="link" href="#about">about</a>
+          <a class="link" href="#works">works</a>
+          <a class="link" href="#contact">contact</a>
+          {/* /*was nav-link */}
         </div>
       </div>
     </div>
