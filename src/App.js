@@ -1,7 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Landing from './Landing';
 
 function App(){
-    return <h1>Momo Creates. Does this work?</h1>
+    return <div>
+        <Navbar />
+        <Landing />
+    </div>
 }
 
 export default App;
