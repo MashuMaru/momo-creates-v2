@@ -4,13 +4,16 @@ body, html {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
 }
 
 /* ---NAVIGATION BAR--- */
 .navbar {
     font-family: 'Roboto', sans-serif !important;
     color: black !important; 
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
+
 
 }
 
@@ -48,9 +51,43 @@ body, html {
 .landing-img-box {
     height: 50%;
     width: 50%;
-    background-color: white;
-    position: relative;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     top: 25%;
+}
+
+.main-image {
+    display: block;
+    position: relative;
+    min-width: 300px;
+    width: 50%;
+    padding: 25px;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+
+}
+
+.landing-text {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    padding-top: auto;
+    top: 25%;
+    margin-left: 25px;
+    padding-bottom: auto;
+}
+
+h1 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 2em;
+    color: white;
 }
