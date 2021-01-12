@@ -97,7 +97,7 @@ html {
     width: 50%;
     padding: 15px;
     background-color: white;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .landing-text {
@@ -120,6 +120,8 @@ h1 {
     font-weight: 900;
     color: white;
     padding-right: 25px;
+    text-shadow: 1px 1px 1px #fff, 1px 1px 1px #000;
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -149,6 +151,7 @@ h1 {
     font-family: 'Noto Sans HK', sans-serif;
     font-size: 2em;
     color: white;
+    text-shadow: 0.5px 0.5px 0.5px #fff, 0.5px 0.5px 0.5px#000;
 }
 
 @media only screen and (max-width: 991px) {
@@ -312,6 +315,7 @@ h1 {
     width: 50%;
     padding: 15px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
@@ -329,6 +333,7 @@ h1 {
         width: 50%;
         padding: 15px;
         background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .about-image {
         display: none;
