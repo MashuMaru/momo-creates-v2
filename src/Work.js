@@ -9,9 +9,11 @@ function Work() {
         <h2 class="work-title">works</h2>
     </div>
     <div class="work-image-container">
-        <img class="works-image" src={works1} alt="profile"></img>
-        <img class="works-image" src={works2} alt="profile"></img>
-        <img class="works-image" src={works1} alt="profile"></img>
+        <div class="work-image-innerdiv">
+            <img class="works-image" src={works1} alt="profile"></img>
+            <img class="works-image" src={works2} alt="profile"></img>
+            <img class="works-image" src={works1} alt="profile"></img>
+        </div>
     </div>
 </div>
 }
