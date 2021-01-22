@@ -2,6 +2,8 @@ import React from 'react';
 import Profile from './images/profile.png';
 import AOS from 'aos';
 
+
+
 function About() {
     AOS.init();
     return <div className="about-section" id="about">
